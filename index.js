@@ -1,10 +1,6 @@
 #! usr/bin/env node
 import inquirer from "inquirer";
-// computer will generate a random number
-// user input for guessing number
-// compare user input 
 const randomNumber = Math.floor(Math.random() * 10 + 1);
-//console.log(randomNumber);
 const answer = await inquirer.prompt([
     {
         name: "userGuessedNumber",
